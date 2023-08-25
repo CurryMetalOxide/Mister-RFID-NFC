@@ -4,7 +4,7 @@ Enables RFID card launching of games for MiSTer FPGA. Launches games without any
 ## Hardware Needed
 - Arduino Nano V3.0 
 - RC522 RFID Card Reader Module Board (3.3V)
-- Mi-fare door access cards
+- Mi-fare door access cards and/or NTAG215 NFC Tags
 - MiSTer FPGA with the extra USB ports board.
 
 ## Arduino Hardware Setup
@@ -48,4 +48,4 @@ Note: This can be combined with MisTer.ini option bootcore= to automatically lau
 I'm not a Programmer, but the code works for me.
 
 ### THANK YOU
-A word of Thanks to illusion-pasture-program from all of this code. I just adapted it to work inside an Arcade cabinet to my liking! 
+A word of Thanks to illusion-pasture-program from all of this code. I just adapted it to work inside my Mister project. 
