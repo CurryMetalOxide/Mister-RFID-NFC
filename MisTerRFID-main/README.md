@@ -2,7 +2,7 @@
 Enables RFID/NFC card launching of games for MiSTer FPGA. Launches games without any menu being display using the MiSTer Game Launcher files (MGL) method. Must use a version of MiSTer from Feb 24, 2022 or after to support this method of launching. I have confirmed this working with all Arcade and Neo Geo cores.
 
 ## Hardware Needed
-- Arduino Nano V3.0 
+- Arduino Nano V3.0 (Nano328P)
 - RC522 RFID Card Reader Module Board (3.3V)
 - Mi-fare door access cards and/or NTAG215 NFC Tags
 - MiSTer FPGA with the extra USB ports board.
