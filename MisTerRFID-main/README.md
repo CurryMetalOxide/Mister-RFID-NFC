@@ -39,6 +39,12 @@ Example MGL for Streets of Rage 2
 
 "3100851986") echo load_core /media/fat/MGL_FILES/_Genesis/'Streets of Rage 2 (U).mgl'> /dev/MiSTer_cmd;;
 
+Example MGL File contents. (Game files located on USB Stick)
+
+<mistergamedescription>
+ <rbf>_console/Genesis</rbf>
+ <file delay="1" type="F" index="0" path="S/Streets of Rage 2 (U).bin"/>
+</mistergamedescription>
 
 ### Disclaimer
 I'm not a Programmer, but the code works for me.
