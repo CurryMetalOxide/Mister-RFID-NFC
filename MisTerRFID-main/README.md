@@ -32,11 +32,19 @@ Note: This can be combined with MisTer.ini option bootcore= to automatically lau
 
 rfid_process.sh included has my setup for MGL links included as examples.
 
+## MGL Location
+I stored my MGL files in the following location /media/fat/MGL_FILES/ on my SD Card
+Example MGL for Streets of Rage 2
+
+"3100851986") echo load_core /media/fat/MGL_FILES/_Genesis/'Streets of Rage 2 (U).mgl'> /dev/MiSTer_cmd;;
+
+
 ### Disclaimer
 I'm not a Programmer, but the code works for me.
 
+
 ### THANK YOU
-A word of Thanks to illusion-pasture-program from all of this code. I just adapted it to work inside my Mister project. 
+Thank you to illusion-pasture-program from all of this code. I just adapted it to work inside my Mister project. 
 
 *** Additional thanks to syntax_x	for his automated batch file https://misterfpga.org/viewtopic.php?t=4359
 
