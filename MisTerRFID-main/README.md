@@ -59,4 +59,5 @@ echo \^</mistergamedescription\^>
 
 ## Still to do
 Find a way to change Region for Certain cores.
-Also find a way to auto launch PSX games, currently i havee to choose reset from the menu for the game to boot after scan.
+
+Also find a way to auto launch PSX games, currently i have to choose reset from the menu for the game to boot after scan.
