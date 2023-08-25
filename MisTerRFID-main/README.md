@@ -34,6 +34,7 @@ rfid_process.sh included has my setup for MGL links included as examples.
 
 ## MGL Location
 I stored my MGL files in the following location /media/fat/MGL_FILES/ on my SD Card
+
 Example MGL for Streets of Rage 2
 
 "3100851986") echo load_core /media/fat/MGL_FILES/_Genesis/'Streets of Rage 2 (U).mgl'> /dev/MiSTer_cmd;;
