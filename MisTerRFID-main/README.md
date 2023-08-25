@@ -3,7 +3,7 @@ Enables RFID/NFC card launching of games for MiSTer FPGA. Launches games without
 
 ## Hardware Needed
 - Arduino Nano V3.0 (Nano328P)
-- RC522 RFID Card Reader Module Board (3.3V)
+- RC522 RFID Card Reader Module Board (3.3V) (MFRC-522)
 - Mi-fare door access cards and/or NTAG215 NFC Tags
 - MiSTer FPGA with the extra USB ports board.
 
