@@ -18,7 +18,7 @@ Enables RFID/NFC card launching of games for MiSTer FPGA. Launches games without
 |VCC|3.3V|
 |GRD|GRD|
 
-The first step is to write the misterrfid_RFID_AND_NFC.ino file to your Arduino. If you find out that that you would like to extend the distance the card is picked up,  You can adjust the receiver gain by editing the following line of the misterrfid.ino before writing it:
+The first step is to write the misterrfid_RFID_AND_NFC.ino file to your Arduino.
 
 On your computer, attach the serial monitor to your Arduino and you should see it repeating `. rfid_process.sh noscan` about every second. As soon as your scan a RFID card, it should output `. rfid_process.sh 12345678`. The number is that card's unique ID. The reader will not scan the same card two times in a row. Make note of the card's unique id.
 
