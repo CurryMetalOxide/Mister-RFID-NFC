@@ -1,5 +1,5 @@
 # MisTerRFID
-Enables RFID/NFC card launching of games for MiSTer FPGA. Launches games without any menu being display using the MiSTer Game Launcher files (MGL) method. Must use a version of MiSTer from Feb 24, 2022 or after to support this method of launching. I have confirmed this working with all Arcade and Neo Geo cores.
+Enables RFID/NFC card launching of games for MiSTer FPGA. Launches games without any menu being display using the MiSTer Game Launcher files (MGL) method. Must use a version of MiSTer from Feb 24, 2022 or after to support this method of launching. I have confirmed this working with all Arcade, Megadrive, SNES, SMS, GB, GBA, and Neo Geo cores.
 
 ## Hardware Needed
 - Arduino Nano V3.0 (Nano328P)
@@ -35,3 +35,12 @@ I'm not a Programmer, but the code works for me.
 
 ### THANK YOU
 A word of Thanks to illusion-pasture-program from all of this code. I just adapted it to work inside my Mister project. 
+
+*** Additional thanks to syntax_x	for his automated batch file https://misterfpga.org/viewtopic.php?t=4359
+
+I edited 	code below to make it work with my setup.
+
+echo \^<mistergamedescription\^>  
+echo	 \^<rbf\^>**\_Console**/!console!\^</rbf\^>  
+echo	 \^<file !settings! path="!FileName!"/\^>  
+echo \^</mistergamedescription\^>
