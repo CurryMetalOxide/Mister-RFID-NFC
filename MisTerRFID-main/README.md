@@ -1,4 +1,4 @@
-# MisTerRFID
+# MisTerRFID/NFC
 Enables RFID/NFC card launching of games for MiSTer FPGA. Launches games without any menu being display using the MiSTer Game Launcher files (MGL) method. Must use a version of MiSTer from Feb 24, 2022 or after to support this method of launching. I have confirmed this working with all Arcade, Megadrive, SNES, SMS, GB, GBA, and Neo Geo cores.
 
 ## Hardware Needed
