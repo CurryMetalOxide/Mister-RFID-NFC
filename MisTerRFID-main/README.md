@@ -50,11 +50,7 @@ Thank you to illusion-pasture-program from all of this code. I just adapted it t
 
 I edited 	code below to make it work with my setup.
 
-echo \^<mistergamedescription\^>  
-echo	 \^<rbf\^>**\_Console**/!console!\^</rbf\^>  
-echo	 \^<file !settings! path="!FileName!"/\^>  
-echo \^</mistergamedescription\^>
-
+echo	 \^<rbf\^>**\_Console**/!console!\^</rbf\^> 
 
 ## Still to do
 Find a way to change Region for Certain cores.
